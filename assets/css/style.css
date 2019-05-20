@@ -1,0 +1,83 @@
+.menu {
+    float: right;
+    font-family: 'Raleway', sans-serif;
+    margin-right: 200px;
+    margin-bottom: 0px;
+    color: #777777;
+    margin-top: 20px;
+}
+#about{
+    padding-right: 20px;
+    color: #777777;
+    font-weight: bold;
+    opacity: 0.7;
+    font-size: 14px;
+}
+#portfolio{
+    padding-right: 20px;
+    color: #777777;
+    font-weight: bold;
+    opacity: 0.7;
+    font-size: 14px;
+}
+#contact{
+    padding-right: 20px;
+    color: #777777;
+    font-weight: bold;
+    opacity: 0.7;
+    font-size: 14px;
+}
+h1{
+    background-color: #05A8AA;
+    width: 160px;
+    top: 10px;
+    color: #fff;
+    font-size: 22px;
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+    padding: 20px;
+    margin-left: 200px;
+    margin-right: 100px;
+    margin-bottom: 0px;
+}
+
+.container {
+    font-family: 'Raleway', sans-serif;   
+    background: #eee;
+    border-top: 1px solid #999;   
+    height: 560px;
+}
+.subarea {
+    background: #fff;
+    width: 960px;
+    margin-left: 200px;
+    margin-right: 10px;
+    width: 75%;
+    
+    
+}
+#description {
+
+    border-bottom: 1px solid #999;
+    font-family: 'Raleway', sans-serif;
+    color: #05A8AA;
+    margin: 15px;
+    padding: 15px;
+    
+
+}
+.main {
+
+    font-family: 'Raleway', sans-serif;
+    padding-top: 10px;
+    margin: 15px;
+
+}
+footer {
+    color: #05A8AA;
+    height: 40px;
+    margin: 0;
+    border-top: 10px solid #05A8AA;
+    background: #666666;
+
+}
