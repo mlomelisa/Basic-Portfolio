@@ -71,6 +71,13 @@ h1{
     font-family: 'Raleway', sans-serif;
     padding-top: 10px;
     margin: 15px;
+}
+
+#mypicture {
+    float: left;
+}
+.main p {
+    margin-left: 20px;
 
 }
 footer {
@@ -79,5 +86,7 @@ footer {
     margin: 0;
     border-top: 10px solid #05A8AA;
     background: #666666;
-
+}
+.clear{
+    clear: both;
 }
