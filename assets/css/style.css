@@ -1,3 +1,4 @@
+/* Settings of menu */
 .menu {
     float: right;
     font-family: 'Raleway', sans-serif;
@@ -6,27 +7,15 @@
     color: #777777;
     margin-top: 20px;
 }
-#about{
-    padding-right: 20px;
+.about{
+    padding-left: 20px;
     color: #777777;
     font-weight: bold;
     opacity: 0.7;
     font-size: 14px;
 }
-#portfolio{
-    padding-right: 20px;
-    color: #777777;
-    font-weight: bold;
-    opacity: 0.7;
-    font-size: 14px;
-}
-#contact{
-    padding-right: 20px;
-    color: #777777;
-    font-weight: bold;
-    opacity: 0.7;
-    font-size: 14px;
-}
+
+/* Settings of Header */
 h1{
     background-color: #05A8AA;
     width: 160px;
@@ -41,37 +30,39 @@ h1{
     margin-bottom: 0px;
 }
 
+/* Section of External Container */
+
 .container {
     font-family: 'Raleway', sans-serif;   
     background: #eee;
     border-top: 2px solid #999;   
     height: 960px;
+    right: 0;
+    left: 0;
+    width: 100%;
+    position: fixed;
 }
+/* Section of Internal container */
 .subarea {
     background: #fff;
     width: 960px;
-    margin-left: 200px;
-    margin-right: 10px;
-    width: 75%;
-    
-    
+    margin: 0 auto;    
 }
+
+/* Division that containt "About me" */
 #description {
 
     border-bottom: 2px solid  #999;
     font-family: 'Raleway', sans-serif;
     color: #05A8AA;
-    margin: 15px;
+    margin: 10px;
     padding: 15px;
     
-
 }
+/* Division that containt image and text */
 .main {
-
-    font-family: 'Raleway', sans-serif;
     margin: 15px;
-    overflow: auto;
-    
+    overflow: auto; 
 }
 
 #mypicture {
@@ -82,8 +73,10 @@ h1{
 }
 .text {
     margin-left: 20px;
+    font-family: 'Raleway', sans-serif;
 
 }
+
 footer {
     color: #05A8AA;
     height: 40px;
