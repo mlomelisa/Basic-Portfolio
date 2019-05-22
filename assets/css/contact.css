@@ -1,9 +1,17 @@
 .entries {
     font-family: 'Raleway', sans-serif;
     opacity: 0.7;
-    width: 960px;
+    width: 600px;
+    padding: 10px;
+}
+#name {
+    width: 500px;
+    border: 1px solid black .7;
+    padding-right: 100px;
+    
 }
 .submission {
     color: #05A8AA;
     padding: 10px;
+
 }

@@ -1,0 +1,19 @@
+ .picture {
+    display: inline-block;
+    width: 200px;
+    height: 100px;
+    margin: 1em;
+    position: relative;
+    padding: 12px;
+    
+  }
+
+  p  {
+      background-color: #05A8AA;
+      color: #fff;
+      padding: 10px;
+      text-align: center;
+      margin-top: -50px;
+      z-index: 3;
+      position: relative;
+  }

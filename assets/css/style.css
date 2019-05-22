@@ -44,8 +44,8 @@ h1{
 .container {
     font-family: 'Raleway', sans-serif;   
     background: #eee;
-    border-top: 1px solid #999;   
-    height: 560px;
+    border-top: 2px solid #999;   
+    height: 960px;
 }
 .subarea {
     background: #fff;
@@ -58,7 +58,7 @@ h1{
 }
 #description {
 
-    border-bottom: 1px solid #999;
+    border-bottom: 2px solid  #999;
     font-family: 'Raleway', sans-serif;
     color: #05A8AA;
     margin: 15px;
@@ -69,23 +69,30 @@ h1{
 .main {
 
     font-family: 'Raleway', sans-serif;
-    padding-top: 10px;
     margin: 15px;
+    overflow: auto;
+    
 }
 
 #mypicture {
     float: left;
+    padding-right: 40px;
+    padding-bottom: 30px;
+    width: 25%; 
 }
-.main p {
+.text {
     margin-left: 20px;
 
 }
 footer {
     color: #05A8AA;
     height: 40px;
-    margin: 0;
     border-top: 10px solid #05A8AA;
     background: #666666;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
 }
 .clear{
     clear: both;
