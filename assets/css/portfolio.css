@@ -17,3 +17,8 @@
       z-index: 3;
       position: relative;
   }
+
+  .main{
+    height: 100%;
+    overflow: auto; 
+  }

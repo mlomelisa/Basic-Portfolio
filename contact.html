@@ -1,56 +1,64 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <title>Basic Portfolio</title>
-        <link rel="stylesheet" type="text/css" href="assets/css/style.css">
-        <link rel="stylesheet" type="text/css" href="assets/css/contact.css">
-    </head>
-
-    <body>
-
-      <header>
-        <div class="menu">
-            <a href="index.html" class="about" >About</a>
-            <a href="portfolio.html" class="about" >Portfolio</a>
-            <a href="contact.html" class="about" >Contact</a>
-        </div>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+  <link rel="stylesheet" type="text/css" href="assets/css/contact.css">
+  <title>Contact</title>
+</head>
+<body>
+  <header id=global-header>
+    <div class="centralheadersection">
+    <section id="name">
         <h1>Monica Lomeli</h1>
-      </header>
+    </section>
 
-        <section class="container">
+    <section id="menu">
+        <a href="index.html" class="about" >About</a>
+        <a href="portfolio.html" class="about" >Portfolio</a>
+        <a href="contact.html" class="about" >Contact</a>
+    </section>
 
-           <section class="subarea">
-             <div id="description">                 
-               <h2>Contact</h2>
-             </div>
+    <div class="clr"></div>
+  </div>
+  </header>
 
-            <!--- <div class="main">-->
-               <section class="entries">    
-                    <label for="name">Name</label>
-                    <br>
-                    <input type="text" id="name" name="name" value="Scott Smith"></input>
-                    <br><br>
-                    <label for="email">Email</label>
-                    <br>
-                    <input type="text" id="email" name="email" value="example@gmail.com"></input>
-                    <br><br>
-                    <label for="message">Message</label>
-                    <br>
-                    <textarea id="message" name="message" rows="4" cols=120 ></textarea>
-                    <br><br>
-                    <Section class="submission">
-                        <input type="submit" value="Submit">
-                    </section>  
-              </Section>
-              
-            <!--</div>--> 
+  <div class="container">
 
-          </section>
-        </section>
-        
-        <footer>
-        </footer>
+    <section class="sub-container">
 
-    </body>
+      <section class="aboutme">
+        <h2>
+          Contact
+        </h2>
+      </section>
+
+      <section class="entries"> 
+           
+          <label for="name">Name</label>
+          <br>
+          <input type="text" id="name" name="name" placeholder="Scott Smith"></input>
+          <br><br>
+          <label for="email">Email</label>
+          <br>
+          <input type="text" id="email" name="email" placeholder="example@gmail.com"></input>
+          <br><br>
+          <label for="message">Message</label>
+          <br>
+          <textarea id="message" name="message" rows="4" cols=120 ></textarea>
+          <br><br>
+          <Section class="submission">
+              <input type="submit" value="Submit">
+          </section> 
+
+      </Section>
+
+    </section>
+  </div>
+   
+  <footer></footer>
+
+</body>
 </html>

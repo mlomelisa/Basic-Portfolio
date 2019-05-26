@@ -1,92 +1,119 @@
-/* Settings of menu */
-.menu {
-    float: right;
-    font-family: 'Raleway', sans-serif;
-    margin-right: 200px;
-    margin-bottom: 0px;
-    color: #777777;
-    margin-top: 20px;
+* {
+  box-sizing: border-box;
 }
-.about{
-    padding-left: 20px;
+/* Css header*/
+
+.global-header{
+  max-width: 960px;
+  margin-bottom: 0px;
+}
+
+.centralheadersection {
+  margin-left: 200px;
+  margin-right: 200px;
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+#name {
+
+  float: left;
+  width: 70%;
+  margin-bottom: 0px;
+  
+}
+
+#name h1{
+  text-align: center;
+  color: #fff;
+  background-color: #05A8AA;
+  width: 200px;
+  top: 10px;
+  font-size: 20px;
+  font-family: 'Georgia', Times, Times New Roman, serif;
+  margin-bottom: 0px;
+  padding: 20px;
+}
+
+#menu {
+  text-align: right;
+  float: right;
+  width: 30%;
+  padding: 20px;
+  margin-bottom: 0px;
+}
+
+.about {
+   padding-left: 20px;
     color: #777777;
     font-weight: bold;
     opacity: 0.7;
     font-size: 14px;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
+a:active {
+  color: red;
+}
+.clr {
+  clear: both;
 }
 
-/* Settings of Header */
-h1{
-    background-color: #05A8AA;
-    width: 160px;
-    top: 10px;
-    color: #fff;
-    font-size: 22px;
-    text-align: center;
-    font-family: 'Raleway', sans-serif;
-    padding: 20px;
-    margin-left: 200px;
-    margin-right: 100px;
-    margin-bottom: 0px;
+/* Css Body*/
+.container{
+  height: 960px;
+  border-top: 2px solid #999;
+  background: #eee;
+  width: 100%;
+  right: 0;
+  left: 0;
+  position: fixed;
 }
 
-/* Section of External Container */
-
-.container {
-    font-family: 'Raleway', sans-serif;   
-    background: #eee;
-    border-top: 2px solid #999;   
-    height: 960px;
-    right: 0;
-    left: 0;
-    width: 100%;
-    position: fixed;
-}
-/* Section of Internal container */
-.subarea {
-    background: #fff;
-    width: 960px;
-    margin: 0 auto;    
+.sub-container {
+  background: #fff;
+  max-width: 960px;
+  margin: 0 auto;
 }
 
-/* Division that containt "About me" */
-#description {
-
-    border-bottom: 2px solid  #999;
-    font-family: 'Raleway', sans-serif;
-    color: #05A8AA;
-    margin: 10px;
-    padding: 15px;
-    
-}
-/* Division that containt image and text */
-.main {
-    margin: 15px;
-    overflow: auto; 
+.aboutme {
+  border-bottom: 2px solid  #999;
 }
 
-#mypicture {
-    float: left;
-    padding-right: 40px;
-    padding-bottom: 30px;
-    width: 25%; 
+h2 {
+  font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+  color: #05A8AA;
+  margin: 10px;
+  padding: 15px;
 }
-.text {
-    margin-left: 20px;
-    font-family: 'Raleway', sans-serif;
 
+.myimage {
+  margin: 15px;
+  overflow: auto;
+  float: left;
+  padding-right: 40px;
+  padding-bottom: 30px;
+  width: 25%;
+}
+
+.description {
+  margin-left: 20px;
+  text-align: justify;
+  padding-right: 20px;
+  font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+
+}
+
+.clear {
+  clear: both;
 }
 
 footer {
-    color: #05A8AA;
-    height: 40px;
-    border-top: 10px solid #05A8AA;
-    background: #666666;
-    position: fixed;
-    bottom: 0;
-    left: 0;
-    width: 100%;
-}
-.clear{
-    clear: both;
+  color: #05A8AA;
+  height: 40px;
+  border-top: 8px solid #4aaaa5;
+  background: #666666;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
 }
