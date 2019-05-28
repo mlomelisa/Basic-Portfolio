@@ -22,7 +22,7 @@
   margin-bottom: 0px;
   
 }
-
+/* Name tittle*/
 #name h1{
   text-align: center;
   color: #fff;
@@ -42,7 +42,7 @@
   padding: 20px;
   margin-bottom: 0px;
 }
-
+/* Menu list*/
 .about {
    padding-left: 20px;
     color: #777777;
@@ -92,11 +92,14 @@ h2 {
   float: left;
   padding-right: 40px;
   padding-bottom: 30px;
-  width: 25%;
+  width: 40%;
 }
+
+/* Description details*/
 
 .description {
   margin-left: 20px;
+  margin-top: 40px;
   text-align: justify;
   padding-right: 20px;
   font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
@@ -106,6 +109,8 @@ h2 {
 .clear {
   clear: both;
 }
+
+/* Footer section*/
 
 footer {
   color: #05A8AA;
