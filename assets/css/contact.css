@@ -1,6 +1,6 @@
 
 .entries {
-    font-family: 'Raleway', sans-serif;
+    font-family: 'Roboto', sans-serif;
     font-size: 12px;
     opacity: 0.5;
     width: 900px;
@@ -9,7 +9,7 @@
 }
 
 .submission {
-    color: #05A8AA;
+    color: #f7c08a;
     padding: 10px;
 }
 
